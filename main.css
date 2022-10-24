@@ -14,15 +14,7 @@
   color: blue;
 }
 
-.groups{
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
- 
-    
-    
-}
 
 .groups > div {
   display: flex;
@@ -30,7 +22,39 @@
 }
 
 
+  .groups{ 
 
+    display: grid;
+
+    
+     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    /* grid-template-columns: 10vw 10vw 10vw 10vw; */
+     
+
+     /* grid-column-start: 4;
+     grid-column-end: 5;
+     grid-row-start: 3;
+     grid-row-end: 4; */
+
+}
+
+@media screen and (max-width: 600px){
+  .groups{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5  , 1fr);
+
+transition: 1s color;
+  }
+}
+
+
+
+div:hover {
+  background-color: #FF1493;
+}
+/* 
 .grp1{
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -39,7 +63,6 @@
   grid-column: 2 / 3;
   grid-row: 1  / 2;
 
-}
-
+} */
 
 
