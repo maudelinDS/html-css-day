@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css">
     <title>Journée Html-CSS</title>
   </head>
   <body>
     <div class="link">
       <a href="https://www.google.ch/#images">link </a>
     </div>
+
+    <h1>HTML-CSS-day</h1>
+<div class="groups">
+
+
     <div class="grp1">
-      <h1>Lorem ipsum dolor sit amet</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
@@ -71,19 +76,27 @@
         <img src="./images/balise.png" alt="Home-studio" />
       </picture>
     </div>
+   
+  <div class="grp6">
 
     <footer>
-      <!-- <form action="" method="post"><br> -->
+      <form action="" method="post"><br>
     <form>
         <h1>Contact</h1>
 
-        <label> first_name: </label><br><br><input type="text" name="first_name" maxlength="50" required><br><br>
-        <label> last_name: </label><br><br><input type="text" name="last_name" maxlength="50" required><br><br>
-        <label> Email:</label><br><br><input type="email" name="email" required><br><br>
-        <label> Message:</label><br><br><textarea  name="message" required></textarea><br><br>
-        <!-- <input type="submit" name="submit" value="Submit"> -->
+        <fieldset>
+        <label for="name-contact-form"> first_name/last_name </label><br><br><input id="name-contact-form" type="text" name="first_name" maxlength="50" required><br><br>
+        
+        <label for="email-contact-form"> Email:</label><br><br><input id="email-contact-form" type="email" name="email" required><br><br>
+        
+        <label for="message-contact-form"> Message:</label><br><br><textarea  id="message-contact-form" name="message-contact-form" required>gffggffdfdgfdf</textarea><br><br>
+         
+        <input type="submit" name="submit" value="Submit">
+      </fieldset>
         </form>
         
     </footer>
+  </div>
+  </div>
   </body>
 </html>
