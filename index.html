@@ -7,9 +7,9 @@
     <title>Journée Html-CSS</title>
   </head>
   <body>
-<div class="link">
-    <a href="https://www.google.ch/"></a>
-</div>
+    <div class="link">
+      <a href="https://www.google.ch/#images">link </a>
+    </div>
     <div class="grp1">
       <h1>Lorem ipsum dolor sit amet</h1>
 
@@ -37,33 +37,53 @@
       <h3>text italic</h3>
 
       <p>
-
         <i>
           >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
           quo suscipit rem deserunt praesentium? Molestiae explicabo dicta
           itaque, ipsa possimus cumque error eos doloribus. Quisquam omnis
           dolores qui? Debitis, aspernatur!
         </i>
-
       </p>
     </div>
     <div class="grp4">
       <h4>prmière image</h4>
       <picture>
-        <source media="(min-width: 650px)" srcset="./images/materiel-home-studio-1024x768.jpg">
-        <source media="(min-width: 465px)" srcset="./images/materiel-home-studio-1024x768.jpg">
-        <img src="./images/materiel-home-studio-1024x768.jpg" alt="Home-studio" />
-    </picture>
+        <source
+          media="(min-width: 650px)"
+          srcset="./images/materiel-home-studio-1024x768.jpg"
+        />
+        <source
+          media="(min-width: 465px)"
+          srcset="./images/materiel-home-studio-1024x768.jpg"
+        />
+        <img
+          src="./images/materiel-home-studio-1024x768.jpg"
+          alt="Home-studio"
+        />
+      </picture>
     </div>
     <div class="grp5">
       <h4>prmière image</h4>
 
-<picture>
-  <source media="(min-width: 650px)" srcset="./images/balise.png">
-  <source media="(min-width: 465px)" srcset="./images/balise.png">
-  <img src="./images/balise.png" alt="Home-studio" />
-</picture>
-
+      <picture>
+        <source media="(min-width: 650px)" srcset="./images/balise.png" />
+        <source media="(min-width: 465px)" srcset="./images/balise.png" />
+        <img src="./images/balise.png" alt="Home-studio" />
+      </picture>
     </div>
+
+    <footer>
+      <form action="" method="post"><br>
+
+        <h1>Contact</h1>
+        
+        <label> first_name: </label><br><br><input type="text" name="first_name" maxlength="50"><br><br>
+        <label> last_name: </label><br><br><input type="text" name="last_name" maxlength="50"><br><br>
+        <label> Email:</label><br><br><input type="email" name="email" required><br><br>
+        <label> Message:</label><br><br><textarea rows="5" name="message" cols="30" required></textarea><br><br>
+        <!-- <input type="submit" name="submit" value="Submit"> -->
+        </form>
+        
+    </footer>
   </body>
 </html>
