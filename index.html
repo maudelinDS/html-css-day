@@ -34,23 +34,33 @@
       <h3>text italic</h3>
 
       <p>
-        <i
+
+        <i>
           >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
           quo suscipit rem deserunt praesentium? Molestiae explicabo dicta
           itaque, ipsa possimus cumque error eos doloribus. Quisquam omnis
-          dolores qui? Debitis, aspernatur!</i
-        >
+          dolores qui? Debitis, aspernatur!
+        </i>
+
       </p>
     </div>
     <div class="grp4">
       <h4>prmière image</h4>
-      <img src="./images/materiel-home-studio-1024x768.jpg" alt="Home-studio">
-
+      <picture>
+        <source media="(min-width: 650px)" srcset="./images/materiel-home-studio-1024x768.jpg">
+        <source media="(min-width: 465px)" srcset="./images/materiel-home-studio-1024x768.jpg">
+        <img src="./images/materiel-home-studio-1024x768.jpg" alt="Home-studio" />
+    </picture>
     </div>
     <div class="grp5">
-        <h4>prmière image</h4>
-        <img src="./images/balise.png" alt="Home-studio">
-  
-      </div>
+      <h4>prmière image</h4>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="./images/balise.png">
+  <source media="(min-width: 465px)" srcset="./images/balise.png">
+  <img src="./images/balise.png" alt="Home-studio" />
+</picture>
+
+    </div>
   </body>
 </html>
