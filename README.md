@@ -1,3 +1,3 @@
-# HTML -CSS-DAY
+# HTML-CSS-DAY
 
 >
