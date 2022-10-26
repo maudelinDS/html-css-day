@@ -14,3 +14,20 @@ toto.addEventListener("click", function () {
     article.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
   }
 });
+
+let pp = document.getElementById("ii")
+// (innerText) variable représente un élément dans le html
+
+pp.addEventListener("input", function () {
+
+    console.log("j'ai cliqué");
+
+  let articles = document.getElementsByTagName("div")
+
+  for (const article of articles) {
+    article.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+  }
+});
+
+
+
