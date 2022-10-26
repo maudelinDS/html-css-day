@@ -64,7 +64,11 @@ function retrieveGrades(gradesID) {
 
     for (const gradesIDElement of gradesID) {
 
-grades.push (parseInt(document.getElementById(gradesIDElement).value))
+        let grade = parseFloat(document.getElementById(gradesIDElement).value)
+        if (!isNaN(grade)){
+grades.push(grade)
+        }
+
     }
     return grades
 }

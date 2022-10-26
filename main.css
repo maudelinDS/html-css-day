@@ -20,12 +20,23 @@
   display: flex;
   
 }
+h2{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
 
-
-
+.input-grade{
+  display: flex;
+  justify-content: center;
+}
 header{
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 header > label{
