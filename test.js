@@ -27,6 +27,10 @@ let ta = [4, 3, 5]
 
 let nn = [6, 3, 2]
 
+let avg_ta = average(ta)
+let avg_nn = average(ta)
+
+// créer une fucntion 
 
 function average(tableau) {
   let total = 0;
@@ -40,3 +44,21 @@ function average(tableau) {
 console.log( average(ta));
 console.log( average(nn));
 
+
+function pass(avg)
+{ 
+
+    if (avg > 6){
+        console.log("tricheur");
+        return
+    }
+if(avg < 4){
+    console.log("Bravo");
+}
+else{
+    console.log("Echec");
+}
+}
+
+pass(average(ta))
+pass(average(nn))
