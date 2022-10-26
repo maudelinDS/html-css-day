@@ -25,10 +25,9 @@ let c = 5;
 
 let ta = [4, 3, 5]
 
-let nn = [6, 3, 2]
+let nn = [6, 3, 2, 9]
 
-let avg_ta = average(ta)
-let avg_nn = average(ta)
+
 
 // créer une fucntion 
 
@@ -53,10 +52,10 @@ function pass(avg)
         return
     }
 if(avg < 4){
-    console.log("Bravo");
+    console.log("Yes");
 }
 else{
-    console.log("Echec");
+    console.log("No");
 }
 }
 
