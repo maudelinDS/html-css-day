@@ -18,46 +18,50 @@ let o = {
     top: "jacket",
     botom: "Jeans",
   },
-};
-
+}
 
 let c = 5;
 
-let ta = [4, 3, 5]
+let ta = [4, 3, 5];
 
-let nn = [6, 3, 2, 9]
+let nn = [6, 3, 2, 9];
 
-
-
-// créer une fucntion 
+// créer une fucntion
 
 function average(tableau) {
   let total = 0;
 
   for (const note of tableau) {
-    total += note
+    total += note;
   }
-  return total / tableau.length 
+  return total / tableau.length;
 }
 
-console.log( average(ta));
-console.log( average(nn));
+console.log(average(ta));
+console.log(average(nn));
 
-
-function pass(avg)
-{ 
-
-    if (avg > 6){
-        console.log("tricheur");
-        return
-    }
-if(avg < 4){
+function pass(avg) {
+  if (avg > 6) {
+    console.log("tricheur");
+    return;
+  }
+  if (avg < 4) {
     console.log("Yes");
-}
-else{
+  } else {
     console.log("No");
-}
+  }
 }
 
-pass(average(ta))
-pass(average(nn))
+pass(average(ta));
+pass(average(nn));
+
+
+let tab = [5]
+
+tab.push(6)
+
+console.log(tab.join("-"));
+
+// tab.every(e => e > 4)
+
+
